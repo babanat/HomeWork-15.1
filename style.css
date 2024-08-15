@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0d0ef;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+  font-size: 30px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.create-new-todo {
+  background: #e8e1e1;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+.add-message {
+  min-height: 25px;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid rgb(67, 46, 75);
+}
+.add-btn {
+  background: #9575e7;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px 5px;
+  color: #fff;
+}
